@@ -18,4 +18,4 @@ df[['case count', 'test count', 'positive tests']] = df[['case count', 'test cou
 
 # Display the cleaned and processed DataFrame
 print(df)
-df.to_csv('dataset2.csv', index=False)
+df.to_csv('Cleaned_Dataset2.csv', index=False)

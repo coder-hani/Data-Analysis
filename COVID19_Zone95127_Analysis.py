@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('Datasets/clean_dataset2.csv')
+df = pd.read_csv('Datasets/Cleaned_Dataset2.csv')
 
 # Filter the dataset for the specific zone "95127"
 df_filtered = df[df['zcta'] == 95127]
