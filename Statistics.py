@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_excel('Dateset/Exo1.xlsx')
+df = pd.read_excel('Dateset/Dataset1.xlsx')
 
 # Print the first 5 rows of the dataframe
 print('First 5 rows of the dataset:')
