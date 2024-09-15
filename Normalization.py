@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
-df = pd.read_excel('Dateset/Dataset1.xlsx')
+df = pd.read_excel('Datesets/Dataset1.xlsx')
 
 def equal_width_binning(data, column_name, num_bins):
     # Calculate bin width
